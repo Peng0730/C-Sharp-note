@@ -1,7 +1,10 @@
 [TOC]
 # Dictionary键值对集合字典
 ## Dictionary键值对集合字典特点
-* 键的类型固定为int 值的类型固定为string 
+* 键和值的类型可以自定义 
+``` c#
+Dictionary<char,int> dic = new Dictionary<char,int>();
+```
 * 键的值是唯一的不能有多个相同的键
 * 可以通过索引的方式给索引的键的值重新赋值
 * 可一起遍历键和值
